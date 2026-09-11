@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — MPWR IT Partners</title>
+  <meta name="description" content="Get in touch with MPWR IT Partners. Based in Overland Park, Kansas. contact@mpwritpartners.com" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-mpwr">MPWR</span>
+        <span class="logo-sub">IT Partners</span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clients.html">Industries</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="contact.html" class="nav-cta">Get in touch</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="eyebrow">Let's talk</p>
+      <h1>Contact us</h1>
+      <p>Tell us about your open role — we respond within one business day</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-wrapper">
+
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p>Whether you have an open role to fill or just want to explore what's possible, we're happy to have a no-pressure conversation.</p>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:contact@mpwritpartners.com">contact@mpwritpartners.com</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Location</h3>
+              <p>Overland Park, Kansas<br>Serving clients locally &amp; nationwide</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Response time</h3>
+              <p>Monday – Friday: within 1 business day<br>We'll reach out to schedule a call</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div>
+              <h3>What to expect</h3>
+              <p>A quick discovery call to understand your role, timeline, and what success looks like for your team.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <h2>Send us a message</h2>
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/mvkolvka" method="POST">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name *</label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Work email *</label>
+                <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company name</label>
+                <input type="text" id="company" name="company" placeholder="Acme Corp" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="service">What are you looking for?</label>
+              <select id="service" name="service">
+                <option value="">Select a need</option>
+                <option value="staffing">Staff augmentation / contract hire</option>
+                <option value="data">Data &amp; analytics talent</option>
+                <option value="salesforce">Salesforce talent</option>
+                <option value="engineering">Software / data engineering</option>
+                <option value="consulting">IT consulting advice</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell us about your need *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe the role, timeline, and anything else that helps us understand what you're looking for..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send message</button>
+          </form>
+          <div id="formMessage" class="form-message"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-logo">
+      <span class="logo-mpwr">MPWR</span>
+      <span class="logo-sub">IT Partners</span>
+    </div>
+    <p>© 2026 MPWR IT Partners · Overland Park, Kansas</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="clients.html">Industries</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
